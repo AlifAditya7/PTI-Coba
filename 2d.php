@@ -95,8 +95,7 @@ echo number_format($rb_air,0,",",".");
 ?></td></tr> 
 
 <?php 
-if(($cb_telepon=="Y")or($cb_televisi=="Y")or($cb_komputer=="Y")or($
-cb_rice=="Y")) 
+if(($cb_telepon=="Y")or($cb_televisi=="Y")or($cb_komputer=="Y")or($cb_rice=="Y")) 
 echo "<tr bgcolor=silver> 
 <td align=center colspan=2>Fasilitas-Fasilitas</td></tr>"; 
 if($cb_telepon=="Y") 
